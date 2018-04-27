@@ -1,0 +1,285 @@
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: "Sporting Grotesque", sans-serif; 
+    font-size: 100%;
+}
+
+/* Home Page */
+
+h1 {
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-size: 5rem;
+    font-weight:100;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -3.5rem;
+    margin-left: -20rem;
+}
+
+h2 {
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family:'Sporting Grotesque', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+h4 {
+    font-family:'Sporting Grotesque', sans-serif;
+    font-weight: 100;
+    font-size: 0.5rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    font-weight: 100;
+}
+
+.home-footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 20px;
+    justify-content: space-between
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top-nav {
+    max-width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+#banana {
+    position: fixed;
+    z-index: -100;
+    width: 25%;
+    top: 80%;
+    left: 60%;
+    margin-top: -20%;
+    margin-left: -2%;
+}
+
+/* Index Menu */
+
+
+.top {
+    margin: 20px 20px;
+    transition: .3s all;
+}
+
+nav.menu {
+    padding-top: 50px;
+	width: 400px;
+	min-height: 100vh;
+	background-color: #81CA91;
+	position: fixed;
+	left: -400px;
+    top: 0;
+	transition: .3s all;
+    z-index: 1000;
+}
+
+nav.menu > a {
+    color: white;
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+}
+
+nav.menu > .indent {
+    padding-left: 25px;
+}
+
+.menu_show {
+	left: 0!important;
+}
+
+.close {
+    margin-left: 420px !important;
+}
+
+.hide {
+    display: none;
+}
+
+/* Article Pages */
+
+p {
+    font-family: "New Rail";
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+.intro h2 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.intro h4 {
+    width: 100%;
+    text-align: center;
+}
+
+.red {
+    background-color: #F26D64;
+}
+
+.yellow {
+    background-color: #FFD657;
+}
+
+.blue {
+    background-color: #27AFEF;
+}
+
+.banner {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: "New Rail";
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.content-left {
+    width: 90%;
+}
+
+.content-right {
+    width: 90%;
+}
+
+.content ul {
+    padding: 0; 
+}
+
+.content li {
+    padding: 0;
+    list-style:inside;
+}
+
+#chart {
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: 20%;
+}
+
+#worker {
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+#doc {
+    max-height: 75%;
+    max-width: 75%;
+    margin-left: 10%;
+    margin-top: 10%
+}
+
+#woman {
+    max-height: 75%;
+    max-width: 75%;
+    margin-left: 10%;
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 480px) {
+
+    /* Home Page */
+
+    h1 {
+        font-size: 5rem;
+        font-weight:100;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -3.5rem;
+        margin-left: -20rem;
+    }    
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-container {
+        flex-direction: row;
+    }
+    
+    /* Article Pages */
+    
+    .intro {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        padding: 0px 20px;
+    }
+    
+    .intro .top {
+        margin-left: 0px;
+    }
+    
+    .intro h2 {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .intro h4 {
+        text-align: left;
+        width: 20%;
+        padding: 0px 20px;
+    }
+    
+    .content {
+        flex-direction: row;
+    }
+    
+    .content-left {
+        width: 40%;
+    }
+    
+    .content-right {
+        width: 60%;
+        padding: 100px 200px 100px 20px;
+    }
+
+}

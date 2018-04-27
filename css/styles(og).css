@@ -1,0 +1,284 @@
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: "Swis721 BT", sans-serif; /* Font needs to be added in before published */
+    font-size: 100%;
+}
+
+/* Home Page */
+
+
+h1 {
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-size: 5rem;
+    font-weight:100;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -3.5rem;
+    margin-left: -20rem;
+}
+
+h2 {
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-size: 1rem;
+}
+
+h3 {
+    font-family:'Sporting Grotesque', sans-serif;
+    font-size: 1rem;
+}
+
+h4 {
+    font-family:'Sporting Grotesque', sans-serif;
+    font-weight: 100;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 50px;
+    justify-content: space-between
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a: link {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+#banana {
+    max-width: 300%;
+    max-height: 300%;
+}
+
+nav {
+    max-width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+/* The Beginning */
+
+#contents {
+    color:#888888;
+}
+
+.dot {
+    max-width: 10%;
+}
+
+#translation {
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: "NewRailAlphabet-White";
+    font-size: 100%;
+    line-height: 150%;
+    }
+
+#leaf {
+    max-width: 200%;
+    max-height: 200%;
+    padding-top: 50px;
+}
+
+
+.banner {
+    max-width: 350%;        
+    }
+
+
+/* La Matanza */
+
+#group {
+    max-height: 100%;
+    max-width: 100%;
+    align-content: center;
+}
+
+/* Chiquita */
+
+#chart {
+    max-height: 100%;
+    max-width: 100%;
+    padding-left: 80px;
+    padding-top: 20px
+}
+
+/* Honduras */
+
+#worker {
+    max-height: 80%;
+    max-width: 80%;
+
+}
+
+/* Strike */
+
+#strike {
+    max-height: 200%;
+    max-width: 200%;
+    margin-top: 50px;
+
+}
+
+/* Fair Trade */
+
+#line {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+/* Gustavo */
+
+#boy {
+    max-width: 200%;
+    max-height: 200%;
+    padding-top: 50px;
+}
+
+/* Desktop Styles */
+
+@media (min-width: 75em) {
+
+/* Home Page */
+    
+.footer-container {
+    flex-direction: row;
+}
+
+.caption {
+    display: none;
+}
+    
+.image:hover {
+    cursor: pointer;
+}
+    
+.image:hover .caption {
+    display: block;
+}
+    
+     
+#year {
+    text-align: right;
+}
+
+#banana {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* The Beginning Page */
+
+
+.header {
+    text-align: center;
+    align-content: center;
+}
+    
+#table {
+    padding-left: 50px;
+        
+    }
+
+.dot {
+    max-height: 15%;
+    max-width: 15%;
+    padding-top: 8px;
+}    
+ 
+#translation {
+        margin-top: -7%;
+        padding-left: 50px;
+        margin-bottom: 5%;
+}
+    
+p {
+        font-size: 120%;
+        line-height: 160%;
+    }
+
+#leaf {
+    max-width: 400%;
+    max-height: 400%;
+    margin-left: -55px;
+}
+    
+.banner {
+    max-width: 350%;        
+    }
+    
+/* La Matanza */
+
+#group {
+    max-height: 90%;
+    max-width: 90%;
+    margin-left: -400px;
+}
+
+
+/* Chiquita */
+
+#chart {
+    max-height: 150%;
+    max-width: 150%;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+/* Honduras */
+
+#worker {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Strike */
+
+#strike {
+    max-height: 350%;
+    max-width: 350%;
+    margin-left: -55px;
+
+}
+    
+    /* Gustavo */
+
+#boy {
+    max-width: 400%;
+    max-height: 400%;
+    margin-left: -55px;
+}
