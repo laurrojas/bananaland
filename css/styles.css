@@ -73,10 +73,10 @@ img {
 #banana {
     position: fixed;
     z-index: -100;
-    width: 50%;
+    width: 35%;
     top: 100%;
-    left: 47%;
-    margin-top: -34.2%;
+    left: 46.5%;
+    margin-top: -31%;
 }
 
 /* Index Menu */
