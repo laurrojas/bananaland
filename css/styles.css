@@ -73,11 +73,10 @@ img {
 #banana {
     position: fixed;
     z-index: -100;
-    width: 25%;
-    top: 80%;
-    left: 60%;
-    margin-top: -20%;
-    margin-left: 5%;
+    width: 50%;
+    top: 100%;
+    left: 55%;
+    margin-top: -34%;
 }
 
 /* Index Menu */
@@ -92,7 +91,7 @@ nav.menu {
     padding-top: 50px;
 	width: 400px;
 	min-height: 100vh;
-	background-color: #81CA91;
+	background-color: #3CB55F;
 	position: fixed;
 	left: -400px;
     top: 0;
