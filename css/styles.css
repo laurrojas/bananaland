@@ -25,7 +25,7 @@ h2 {
 
 h3 {
     font-family:'Sporting Grotesque', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 100;
 }
 
@@ -75,7 +75,7 @@ img {
     z-index: -100;
     width: 50%;
     top: 100%;
-    left: 55%;
+    left: 47%;
     margin-top: -34%;
 }
 
